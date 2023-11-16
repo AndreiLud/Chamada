@@ -1,0 +1,53 @@
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #tabelaAlunos {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+  }
+  
+  #tabelaAlunos th, #tabelaAlunos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabelaAlunos th {
+    background-color: #f2f2f2;
+  }
+  
+  .aluno:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .checkboxPresenca {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #botaoPresencaGeral {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  #botaoPresencaGeral:hover {
+    background-color: #45a049;
+  }
+  
